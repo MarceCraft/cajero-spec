@@ -23,3 +23,10 @@ h1 {
     color: #4a7;
     text-decoration: none;
 }
+
+.footer {
+    background-color: #47a;
+}
+.footer h2 {
+    color: aqua;
+}
