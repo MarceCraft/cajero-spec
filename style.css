@@ -23,6 +23,12 @@ h1 {
     color: #4a7;
     text-decoration: none;
 }
+.input-saled {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(68, 13, 40);
+}
 
 .footer {
     background-color: #47a;
