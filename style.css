@@ -37,3 +37,23 @@ h1 {
 .footer h2 {
     color: aqua;
 }
+
+main {
+    display: grid;
+    grid-template-areas: 
+    'main main aside'
+    'main main aside'
+    'main main aside';
+    grid-template-columns: repeat(3, minmax(min-content,1fr));
+    background-color: #4a7;
+}
+
+.section {
+    background-color: #458;
+    grid-area: main;
+}
+
+.aside {
+    grid-area: aside;
+    place-self: center;
+}
