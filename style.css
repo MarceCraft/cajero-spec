@@ -1,0 +1,25 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+.header {
+    background-color: rgb(101, 49, 12);
+
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 5px;
+    color: #fff;
+}
+
+.nav > ul {
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.nav .item > a {
+    color: #4a7;
+    text-decoration: none;
+}
